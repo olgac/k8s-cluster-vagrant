@@ -1,6 +1,8 @@
 nodes = [
   { :hostname => 'k8s-master', :ip => '192.168.50.10'},
   { :hostname => 'k8s-node01', :ip => '192.168.50.11'},
+  { :hostname => 'k8s-node02', :ip => '192.168.50.12'},
+  { :hostname => 'k8s-node03', :ip => '192.168.50.13'},
 ]
 
 $script = <<SCRIPT
